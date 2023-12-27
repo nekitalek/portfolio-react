@@ -2,8 +2,8 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [{ skill: "HTML" }, { skill: "CSS" }, { skill: "JavaScript" }, { skill: "Python" },
-  { skill: "React" }, { skill: "Node.js" }, { skill: "Tailwind CSS" }, { skill: "Git" }, { skill: "Jupyter Notebooks" },
-  { skill: "SQL" }, { skill: "PostgreSQL" }, { skill: "C/C++" }, { skill: "Docker" },
+  { skill: "React" }, { skill: "Node.js" }, { skill: "C/C++" }, { skill: "Tailwind CSS" }, { skill: "Git" }, { skill: "Jupyter Notebook" },
+  { skill: "SQL" }, { skill: "PostgreSQL" }, { skill: "Docker" }, { skill: "MongoDB" }, { skill: "Redis" }
 ]
 
 const AboutSection = () => {
@@ -24,7 +24,7 @@ const AboutSection = () => {
               Hi, my name is Nick and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" disciplined"}</span> software engineer
+              <span className="font-bold">{" disciplined"}</span> CyberSec specialist
               based in Saint-Petersburg, Russia.
             </p>
             <br />
